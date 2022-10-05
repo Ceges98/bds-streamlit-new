@@ -206,7 +206,7 @@ with tab1:
             st.markdown("""Due to some technical issues with the Logistic regression, we decided to use the XGB Classifier
             for the model anyways, because the LR-model seems to do limited ietrations on the training data. We did not 
             have that problem with the XGB-model, so we went ahead and used the XGB for the prediction model on this webpage """)
-
+        @st.experimental_singleton
         with tab4: 
             data1 = pd.read_csv("https://raw.githubusercontent.com/Ceges98/BDS-Project/main/bank_marketing.csv", sep=";")
             with st.expander("UML"):
