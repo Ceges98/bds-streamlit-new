@@ -209,7 +209,6 @@ with tab1:
         with tab4: 
             data1 = pd.read_csv("https://raw.githubusercontent.com/Ceges98/BDS-Project/main/bank_marketing.csv", sep=";")
             with st.expander("UML"):
-                @st.experimental_singleton
                 st.title("Unsupervised Machine Learning")
                 st.subheader('This will be a journey through the creation of UML customer segmentation, and an analysis of the obtained result.')
                 'Let us start with the end result'
